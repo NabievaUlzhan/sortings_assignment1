@@ -110,8 +110,11 @@ Closest Pair is asymptotically efficient compared to O(n²), but constants make 
 
 The experiments confirm theoretical complexity but emphasize the role of constant factors, cache behavior, and practical implementation details in real performance.
 
-![img.png](img.png)
-![img_1.png](img_1.png)
+<img width="585" height="236" alt="image" src="https://github.com/user-attachments/assets/56400bef-ae57-4f1f-b3dc-f9c1a8869219" />
+<img width="1039" height="660" alt="image" src="https://github.com/user-attachments/assets/2a2b9e1e-13ea-420a-8bcd-6df1613bb917" />
 
-![img_2.png](img_2.png)
-![img_3.png](img_3.png)
+<img width="523" height="246" alt="image" src="https://github.com/user-attachments/assets/71d76422-c530-4f74-ab10-f6b4034d58bb" />
+<img width="1116" height="704" alt="image" src="https://github.com/user-attachments/assets/00ee670f-e758-4d56-843f-b125348165dc" />
+
+
+
