@@ -15,8 +15,8 @@ public class QuickSort {
             int leftSize = p - 1 - l + 1;
             int rightSize = r - (p + 1) + 1;
             if (leftSize < rightSize) {
-                sort(a, l, p - 1, m); // recurse smaller
-                l = p + 1; // iterate larger
+                sort(a, l, p - 1, m); 
+                l = p + 1; 
             } else {
                 sort(a, p + 1, r, m);
                 r = p - 1;
@@ -25,7 +25,6 @@ public class QuickSort {
         }
     }
 
-    // Lomuto partition around randomized pivot
     private static int partitionRand(int[] a, int l, int r, Metrics m) {
         int pv = Util.randPivot(l, r);
         Util.swap(a, pv, r, m);
