@@ -1,7 +1,7 @@
 package dsa.dc;
 
 public class MergeSort {
-    private static final int CUTOFF = 24; // small-n cutoff
+    private static final int CUTOFF = 24; 
 
     public static void sort(int[] a, Metrics m) {
         int[] tmp = new int[a.length]; m.alloc(a.length);
@@ -15,7 +15,7 @@ public class MergeSort {
         int mid = (l + r) >>> 1;
         sort(a, l, mid, tmp, m);
         sort(a, mid + 1, r, tmp, m);
-        if (Util.compare(a[mid], a[mid+1], m) <= 0) { m.leave(); return; } // already sorted
+        if (Util.compare(a[mid], a[mid+1], m) <= 0) { m.leave(); return; } 
         merge(a, l, mid, r, tmp, m);
         m.leave();
     }
