@@ -28,7 +28,6 @@ public class Cli {
                 case "select" -> {
                     int[] a = randArray(n, 200 + t);
                     int val = SelectMoM5.select(a, k, m);
-// prevent dead-code elimination
                     if (val == Integer.MIN_VALUE) System.out.print("");
                 }
                 case "closest" -> {
